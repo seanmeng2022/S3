@@ -50,5 +50,14 @@
 
 * 点击下一步，可以给策略打tag标签，方便后续管理。比如DOC-EXAMPLE-BUCKET1的策略，对应的标签就是DOC-EXAMPLE-BUCKET1。
 
+
+
+
 ### 将策略授权给IAM用户
-* 回到IAM
+* 回到IAM主菜单
+* 选择左侧“用户”，选中想要授权的用户，进入用户界面
+* 选择添加权限
+<img width="1595" alt="截屏2022-07-26 10 30 54" src="https://user-images.githubusercontent.com/107611866/180910177-23a988e5-c439-45e6-b1e0-e404c0c47f0b.png">
+
+* 在策略列表中过滤刚刚创建的策略，即可将该策略授权给用户
+<img width="1456" alt="截屏2022-07-26 10 31 59" src="https://user-images.githubusercontent.com/107611866/180910315-ffeea4c4-7fd3-4dc2-ba4a-44e9fb74598b.png">
